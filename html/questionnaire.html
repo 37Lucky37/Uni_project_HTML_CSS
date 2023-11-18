@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questionnaire</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Солодка скриня</div>
+  
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html"> Головна </a></li>
+            <li><a href="supplices.html"> Наша продукція </a></li>
+            <li><a href=""></a> Наші послуги</li>
+            <li><a href=""></a> Контакти</li>
+          </ul>
+        </nav>    
+  
+        <ul class="navbar_info">
+          <li>
+            <a href="https://goo.gl/maps/JZCiQYJBEJ92gMPe6" target="_blank">
+              <address>м. Чернівці, <br> вул. Університецька, 28</address>
+            </a>
+          </li>
+          <li>
+            <a href="tel:+88128449549" class="tel"> +380976834563 </a>
+            <p class="subtext_tel">Щодня і цілодобово</p>
+          </li>
+        </ul>
+    </header>
+    <main>
+        <div class="wrapper">
+            <section class="questionnaire">
+                <h1>Опитування для наших клієнтів</h1>
+                <form>
+                    <ul>
+                        <li>
+                            <p>Чи залишись ви задоволеними нашими послугами?</p>
+                            <ul>
+                                <li><input type="radio" id="qv1-yes" name="Are-you-satisfied" value="Yes">
+                                    <label for="qv1-yes">Так</label></li>
+                                <li><input type="radio" id="qv1-no" name="Are-you-satisfied" value="No">
+                                    <label for="qv1-no">Ні</label></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>Чи отримали ви замовлення вчасно?</p>
+                            <ul>
+                                <li><input type="radio" id="qv2-yes" name="receive-on-time" value="Так">
+                                    <label for="qv2-yes">Так</label></li>
+                                <li><input type="radio" id="qv2-no" name="receive-on-time" value="Ні">
+                                    <label for="qv2-no">Ні</label></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>Наскільки ви оцінете наші послуги?</p>
+                            <ul>
+                                <li><input type="radio" id="bad" name="rate-us" value="Погано">
+                                    <label for="bad">Погано</label></li>
+                                <li><input type="radio" id="normal" name="rate-us" value="Нормально">
+                                    <label for="normal">Нормально</label></li>
+                                <li><input type="radio" id="good" name="rate-us" value="Добре">
+                                    <label for="good">Добре</label></li>   
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>Що вам подобається в наших послугах</p>
+                            <input type="checkbox" name="qv4-what-do-you-like" id="qv4-what-do-you-like-1" value="Наші смаколики">
+                            <label for="qv4-what-do-you-like-1">Наші смаколики</label>
+                            <input type="checkbox" name="qv4-what-do-you-like" id="qv4-what-do-you-like-2" value="Швидка доставка">
+                            <label for="qv4-what-do-you-like-2">Швидка доставка</label>
+                            <input type="checkbox" name="qv4-what-do-you-like" id="qv4-what-do-you-like-3" value="Зв'язок з клієнтами">
+                            <label for="qv4-what-do-you-like-3">Зв'язок з клієнтами</label>
+                        </li>
+                        <li>
+                            <p>Які інгрідієнти ви б хотіли бачити в наших смаколиках?</p>
+                            <input type="checkbox" name="qv-check-ingridients" id="qv-check-ingridients-1" value="Більше фруктів">
+                            <label for="qv-check-ingridients-1">Більше фруктів</label>
+                            <input type="checkbox" name="qv-check-ingridients" id="qv-check-ingridients-2" value="Більше шоколадних виробів">
+                            <label for="qv-check-ingridients-2">Більше шоколадних виробів</label>
+                            <input type="checkbox" name="qv-check-ingridients" id="qv-check-ingridients-3" value="Більше прикрас">
+                            <label for="qv-check-ingridients-3">Більше прикрас</label>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <label for="відгук">Ваш відгук:</label><br>
+                            <textarea id="відгук" name="відгук" rows="4" cols="50"></textarea><br>
+                        </li>
+                        <li>
+                            <input type="email" name="email" id="email" placeholder="введіть email">
+                        </li>
+                    </ul>
+                    
+                    <input type="submit" value="Надіслати">
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <h2>Щоб зробити замовлення вкажіть ваш номер телефону</h2>
+        <p>Ми зателефонуємо вам протягом 15 хвилин</p>
+        <i class="phone_icon"><img src="/images/phone.png" alt=""></i>
+        <input type="number" name="phone" id="phone_number" placeholder="номер телефону">
+        <a href="" class="make-review">Зробити замовлення</a> 
+        <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+        <label for="subscribe">Нажимаючи на кнопку ви погоджуєтесь з умовами обробки персональних даних</label>
+        <ul class="nav-bar-footer">
+          <li>
+            <p>Умови обробки персональних даних</p>
+          </li>
+          <li>
+            <p>Служба підтримки</p>
+          </li>
+          <li>
+            <p>Політика конфіденціональності</p>
+          </li>
+        </ul>
+    </footer>
+</body>
+</html>
